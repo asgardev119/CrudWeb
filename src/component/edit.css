@@ -1,0 +1,20 @@
+.edit_cont {
+  height: 300px;
+  width: 500px;
+  background: lightblue;
+  margin: auto;
+  margin-top: 40px;
+  border: 2px dotted #000;
+}
+
+.edit_cont input {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+.edit_cont input[type="button"] {
+  width: 100px;
+  height: 30px;
+  margin-left: 40%;
+  margin-top: 40px;
+}

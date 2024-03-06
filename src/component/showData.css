@@ -1,0 +1,41 @@
+.shoData_con {
+  height: 300px;
+  width: 400px;
+  background: lightblue;
+  position: absolute;
+  left: 30%;
+  border: 2px solid #000;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.close {
+  cursor: pointer;
+  float: right;
+  height: 20px;
+  width: 20px;
+  background-image: url("/public/close.png");
+  background-position: center;
+  background-size: cover;
+  border: none;
+  margin: 10px 10px 0px 0px;
+  mix-blend-mode: color-burn;
+}
+
+.p_cont {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p_cont p {
+  margin-top: 10px;
+}
+
+.p_cont p span {
+  color: darkblue;
+  font-weight: 700;
+}

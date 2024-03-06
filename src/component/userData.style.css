@@ -1,0 +1,67 @@
+.container {
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+
+.usersData {
+  height: auto;
+  width: 100%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: 30px auto auto auto;
+  width: 90%;
+  table-layout: fixed;
+  white-space: wrap;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 8px;
+  height: 30px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-around;
+}
+
+.action button {
+  width: 40px;
+  height: 20px;
+}
+
+.title {
+  margin-top: 80px;
+}
+
+#btnicon {
+  background-color: transparent;
+  height: auto;
+  border: none;
+}
+
+button img {
+  background-size: cover;
+  background-position: center;
+  height: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  table {
+    width: 100%;
+  }
+
+  td,
+  th {
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
